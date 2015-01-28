@@ -4,7 +4,7 @@ SuperDict - it's like dict, but better.
 
 You don't change you dictionary to something new, you just make it better.
 
-Module contains only 13 rows of code and valid by PEP8.
+Module contains only 15 rows of code and valid by PEP8.
 
 ## Installation
 
@@ -47,6 +47,11 @@ $ pip install superdict
 {'default': {'x': 'y'}}
 >>> default_data.default.x
 'y'
+>>>
+>>> real_dict = SuperDict({'is_success': True})
+>>> copied_dict = real_dict.copy()
+>>> copied_dict.is_success
+True
 ```
 
 In another cases this class works like a dict.

@@ -14,3 +14,6 @@ class SuperDict(dict):
 
     def __delattr__(self, attrname):
         del self[attrname]
+
+    def copy(self):
+        return SuperDict(super(SuperDict, self).copy())
