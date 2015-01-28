@@ -6,6 +6,13 @@ You don't change you dictionary to something new, you just make it better.
 
 Module contains only 13 rows of code and valid by PEP8.
 
+## Installation
+
+```bash
+$ pip install superdict
+```
+
+## Usage
 
 ```python
 >>> from superdict import SuperDict
